@@ -3,6 +3,8 @@ using System.Windows.Forms;
 
 namespace LanguageVS
 {
+    public delegate void MyDelegate(string data);
+
     static class Program
     {
         /// <summary>
